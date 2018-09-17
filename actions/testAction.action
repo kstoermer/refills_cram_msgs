@@ -1,6 +1,0 @@
-#goal definition
-float64 testValue
----
-#result definition
-float64 testResult
----

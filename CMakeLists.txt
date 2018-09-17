@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_action_files(
    DIRECTORY actions 
    FILES
-   testAction.action
+   donbot.action
  )
 
 generate_messages(
