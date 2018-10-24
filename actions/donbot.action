@@ -6,6 +6,7 @@ uint8 detect_shelf_layers = 1
 uint8 scan_floor_board = 2
 uint8 scan_floor_contents = 3
 uint8 scan_shelf = 4
+uint8 find_product = 5
 
 uint8 type
 
@@ -17,6 +18,9 @@ string floorid
 
 #Pose to drive
 geometry_msgs/PoseStamped pose
+
+#Barcode
+string barcode
 
 ---
 #result definition
